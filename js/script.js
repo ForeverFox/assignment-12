@@ -8,17 +8,25 @@ $(function() {
 		$("#recipe-card-1").toggle();
 	});
 
-	$(".recipe-click").click(function() {
-		$(".recipe-reveal").fadeIn(800);
+	$("#recipe-click-1").click(function() {
+		$("#recipe-reveal-1").fadeIn(800);
 	});	
 
 	$("#recipe-2").click(function() {
 		$("#recipe-card-2").toggle();
 	});
 
+	$("#recipe-click-2").click(function() {
+		$("#recipe-reveal-2").fadeIn(800);
+	});		
+
 	$("#recipe-3").click(function() {
 		$("#recipe-card-3").toggle();
 	});
+
+	$("#recipe-click-3").click(function() {
+		$("#recipe-reveal-3").fadeIn(800);
+	});	
 
 	$("#recipe-4").click(function() {
 		$("#recipe-card-4").toggle();
