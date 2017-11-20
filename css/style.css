@@ -111,6 +111,7 @@ p {
 }
 
 .article {
+  position: relative;
   width: 100%;
   padding: 2rem 2rem 2rem 4rem;
   background-color: #fffefb;
@@ -120,9 +121,6 @@ p {
 }
 
 #recipe-card-1, #recipe-card-2, #recipe-card-3, #recipe-card-4, #recipe-card-5, #recipe-card-6, #recipe-card-7 {
-  position: relative;
-  left: 0;
-  top: 0;
   display: none; 
 }
 
@@ -145,6 +143,7 @@ p {
   font-style: italic;
   padding-top: 1rem;
   line-height: 1.4;
+  width: 75%;
 }
 
 .recipe-section, .main-nav, .aside {
@@ -156,7 +155,7 @@ p {
 }
 
 .list-style li {
-  padding: 0.25rem 0;  
+  padding: 0.5rem 0;  
 }
 
 .no-style {
@@ -165,4 +164,9 @@ p {
   line-height: 1.4; 
   padding-top: 0.5rem;
   font-size: 0.9rem; 
+}
+
+ol {
+  width: 75%;
+  line-height: 1.8;
 }

@@ -1,12 +1,5 @@
-/* Borrowed from Emily Wing and Stacy Mann and http://jsfiddle.net/n53qg/:
-	$(".nav-button").click(function(e) {
-	      e.preventDefault();
-	      $(".article").fadeOut("900");
-	      $("#" + $(this).data("rel")).fadeIn("900");
-	});
-*/
-
 $(function() {
+
 	$("#click").click(function() {
 		$(".main-nav").toggle(reveal);
 	});
@@ -50,3 +43,4 @@ function reveal() {
 		top: "0",
 	}, 800, "swing");
 };
+
