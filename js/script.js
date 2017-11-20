@@ -4,6 +4,22 @@ $(function() {
 		$(".main-nav").toggle(reveal);
 	});
 
+	$("#recipe-click-1").click(function() {
+		$("#recipe-reveal-1").fadeIn(800);
+		$("#recipe-click-1").hide();
+	});
+
+	$("#recipe-click-2").click(function() {
+		$("#recipe-reveal-2").fadeIn(800);
+		$("#recipe-click-2").hide();
+	});	
+
+	$("#recipe-click-3").click(function() {
+		$("#recipe-reveal-3").fadeIn(800);
+		$("#recipe-click-3").hide();
+	});	
+
+
 	$("#recipe-1").click(function() {
 		$("#recipe-card-1").toggle();
 		$("#recipe-card-2").hide();
@@ -13,11 +29,7 @@ $(function() {
 		$("#recipe-card-6").hide();
 		$("#recipe-card-7").hide();
 	});
-
-	$("#recipe-click-1").click(function() {
-		$("#recipe-reveal-1").fadeIn(800);
-		$("#recipe-click-1").hide();
-	});	
+	
 
 	$("#recipe-2").click(function() {
 		$("#recipe-card-2").toggle();
@@ -28,11 +40,7 @@ $(function() {
 		$("#recipe-card-6").hide();
 		$("#recipe-card-7").hide();
 	});
-
-	$("#recipe-click-2").click(function() {
-		$("#recipe-reveal-2").fadeIn(800);
-		$("#recipe-click-2").hide();
-	});		
+	
 
 	$("#recipe-3").click(function() {
 		$("#recipe-card-3").toggle();
@@ -44,10 +52,6 @@ $(function() {
 		$("#recipe-card-7").hide();
 	});
 
-	$("#recipe-click-3").click(function() {
-		$("#recipe-reveal-3").fadeIn(800);
-		$("#recipe-click-3").hide();
-	});	
 
 	$("#recipe-4").click(function() {
 		$("#recipe-card-4").toggle();
