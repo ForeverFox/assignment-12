@@ -10,6 +10,7 @@ $(function() {
 
 	$("#recipe-click-1").click(function() {
 		$("#recipe-reveal-1").fadeIn(800);
+		$("#recipe-click-1").hide();
 	});	
 
 	$("#recipe-2").click(function() {
@@ -18,6 +19,7 @@ $(function() {
 
 	$("#recipe-click-2").click(function() {
 		$("#recipe-reveal-2").fadeIn(800);
+		$("#recipe-click-2").hide();
 	});		
 
 	$("#recipe-3").click(function() {
@@ -26,6 +28,7 @@ $(function() {
 
 	$("#recipe-click-3").click(function() {
 		$("#recipe-reveal-3").fadeIn(800);
+		$("#recipe-click-3").hide();
 	});	
 
 	$("#recipe-4").click(function() {
