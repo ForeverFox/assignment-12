@@ -1,0 +1,168 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; 
+}
+
+.clearfix:after {
+  clear: both; 
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  position: relative;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  background-color: #fffaf0;
+}
+
+h1 {
+  font-size: 2.25em;
+  padding: 1rem;
+  color: white;
+}
+
+h2 {
+  font-size: 1.75em;
+  padding-bottom: 1rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  padding: 1.5rem 0 1rem 0;
+  font-size: 1.15em;
+}
+
+p {
+  line-height: 1.8;  
+}
+
+.header {
+  width: 100%; 
+  background-color: #a34500;
+  height: 10%; 
+}
+
+#click {
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.main-nav {
+  background-color: #e6720b;
+  width: 20%;
+  padding: 1em; 
+  display: none;
+  left: -200%;
+  top: 0;
+}
+
+.main-nav li {
+  font-weight: bold;
+  color: #851000;
+}
+
+.nav-button {
+  list-style-type: none;
+  padding: 1.25rem; 
+  margin: 1rem; 
+  border-radius: 5px; 
+  background-color: white;
+  text-align: center;  
+}
+
+.main-nav.a {
+  text-decoration: none;
+}
+
+.figure {
+  padding: 0;
+}
+
+.reveal {
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+#recipe-1, #recipe-2, #recipe-3, #recipe-4, #recipe-5, #recipe-6, #recipe-7 {
+  cursor: pointer; 
+}
+
+.recipe-section {
+  width: 60%; 
+  margin-bottom: 20%;
+}
+
+.article {
+  width: 100%;
+  padding: 2rem 2rem 2rem 4rem;
+  background-color: #fffefb;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+#recipe-card-1, #recipe-card-2, #recipe-card-3, #recipe-card-4, #recipe-card-5, #recipe-card-6, #recipe-card-7 {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: none; 
+}
+
+.recipe-click {
+  color: red;
+  cursor: pointer;
+}
+
+.recipe-reveal {
+  display: none;
+}
+
+.aside {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.emphasis {
+  font-style: italic;
+  padding-top: 1rem;
+  line-height: 1.4;
+}
+
+.recipe-section, .main-nav, .aside {
+  float: left; 
+}
+
+.list-style {
+  list-style-position: inside;
+}
+
+.list-style li {
+  padding: 0.25rem 0;  
+}
+
+.no-style {
+  list-style-type: none;
+  font-weight: bold;
+  line-height: 1.4; 
+  padding-top: 0.5rem;
+  font-size: 0.9rem; 
+}
