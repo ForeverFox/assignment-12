@@ -20,36 +20,22 @@ $(function() {
 	});	
 
 
+
 	$("#recipe-1").click(function() {
 		$("#recipe-card-1").toggle();
-		$("#recipe-card-2").hide();
-		$("#recipe-card-3").hide();
-		$("#recipe-card-4").hide();
-		$("#recipe-card-5").hide();
-		$("#recipe-card-6").hide();
-		$("#recipe-card-7").hide();
+		$("#recipe-card-2, #recipe-card-3, #recipe-card-4, #recipe-card-5, #recipe-card-6, #recipe-card-7").hide();
 	});
 	
 
 	$("#recipe-2").click(function() {
 		$("#recipe-card-2").toggle();
-		$("#recipe-card-1").hide();
-		$("#recipe-card-3").hide();
-		$("#recipe-card-4").hide();
-		$("#recipe-card-5").hide();
-		$("#recipe-card-6").hide();
-		$("#recipe-card-7").hide();
+		$("#recipe-card-1, #recipe-card-3, #recipe-card-4, #recipe-card-5, #recipe-card-6, #recipe-card-7").hide()
 	});
 	
 
 	$("#recipe-3").click(function() {
 		$("#recipe-card-3").toggle();
-		$("#recipe-card-1").hide();
-		$("#recipe-card-2").hide();
-		$("#recipe-card-4").hide();
-		$("#recipe-card-5").hide();
-		$("#recipe-card-6").hide();
-		$("#recipe-card-7").hide();
+		$("#recipe-card-1, #recipe-card-2, #recipe-card-4, #recipe-card-5, #recipe-card-6, #recipe-card-7").hide()
 	});
 
 
@@ -76,7 +62,3 @@ function reveal() {
 		top: "0",
 	}, 800, "swing");
 };
-
-function hideCards() {
-	$("article").not("#recipe-card-1").hide();
-}
